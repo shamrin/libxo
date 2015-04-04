@@ -228,17 +228,17 @@ data, including data type, description, and an XPath location.
     <div class="line">
       <div class="data" data-tag="blocks">36</div>
       <div class="padding">      </div>
-      <div class="data data-tag="path">./src</div>
+      <div class="data" data-tag="path">./src</div>
     </div>
     <div class="line">
       <div class="data" data-tag="blocks">40</div>
       <div class="padding">      </div>
-      <div class="data data-tag="path">./bin</div>
+      <div class="data" data-tag="path">./bin</div>
     </div>
     <div class="line">
       <div class="data" data-tag="blocks">90</div>
       <div class="padding">      </div>
-      <div class="data data-tag="path">./</div>
+      <div class="data" data-tag="path">./</div>
     </div>
 
 ** Format Strings @format-strings@
@@ -260,7 +260,7 @@ The field description is given as follows:
     '{' [ role | modifier ]* ':' [ content ]
             [ '/' field-format [ '/' encoding-format ]] '}'
 
-The role describes the function of the field, while the modifiers
+The role describes the function of the field,dat while the modifiers
 enable optional behaviors.  The contents, field-format, and
 encoding-format are used in varying ways, based on the role.  These
 are described in the following sections.
